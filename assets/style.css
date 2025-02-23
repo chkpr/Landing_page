@@ -1,0 +1,160 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.details {
+    line-height: 0.5;
+}
+.tenor-sans-regular-logo {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height:1;
+}
+
+.tenor-sans-regular-smallcaps {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    letter-spacing:1px;
+}
+
+.current {
+    background-color:#bab29f;
+}
+
+.gradient {
+    background: linear-gradient(rgba(68, 67, 67, 0.400), rgba(250, 250, 251, 0));
+}
+
+.filter {
+    filter:brightness(0.85);
+    
+}
+
+.title {
+    font-size:50px;
+    font-weight:700;
+    text-shadow: 1px 1px 1px #12121241;
+    
+}
+
+.subtitle {
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #12121257;
+}
+
+
+
+.titre-section {
+    color:#bab29f;
+}
+
+.cta {
+    background-color:#bab29f;
+    border-radius:40px;
+    display:inline-block;
+    padding:6px 48px;
+    font-weight: normal;
+    border-style: solid;
+    border-color:#d8d5d0;
+    border-width: 0.5px;
+    cursor:pointer;
+}
+
+.club_univers_21 {
+    color:#bab29f;
+}
+
+.titre {
+    width:10%;
+}
+
+.text-modal 
+   {
+            color: #8f897b;
+            font-family: 'Poppins';
+            
+            line-height: 2;
+        }
+
+                .text-modal_titre {
+                    color: #bab29f;
+                    font-family: 'Poppins';
+        
+                    line-height: 2;
+                }
+
+
+.nav-link_item {
+    color:#bab29F;
+    font-family: 'Poppins';
+}
+
+@media screen and (max-width:768px) {
+    .hero-header_1 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero-header_2 {
+        font-size: 24px;
+    }
+} 
+
+
+@media screen and (max-width:768px) {
+    .hero-header_cta {
+        display:none;
+    }
+}
+ 
+
+@media screen and (min-width:768px) {
+    .hero-header_mobile-cta {
+        display: none;
+    }
+}
+
+
+
+.footer {
+    background-color: #bab29F;
+}
+
+@media screen and (max-width:768px) {
+    .footer-logo {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer-logo {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero-img_mobile {
+        display:none;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .hero-img_desktop {
+        display: none;
+    }
+
+}
