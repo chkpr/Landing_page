@@ -71,6 +71,18 @@ ul {
     cursor:pointer;
 }
 
+.cta-hero_mobile {
+    background-color: #615b4f;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 6px 48px;
+    font-weight: normal;
+    border-style: solid;
+    border-color: #d8d5d0;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
 .club_univers_21 {
     color:#bab29f;
 }

@@ -8,30 +8,24 @@
     <link href="./assets/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 </head>
 
 <body>
-
     <header class="h-100 pb-5 mb-5 pt-3">
         <nav
-            class="navbar bg-white navbar-expand-lg fixed-top d-flex flex-wrap justify-content-center py-3 px-1  border-bottom border-white shadow-sm">
+            class="navbar bg-white navbar-expand-lg fixed-top d-flex flex-wrap justify-content-center py-3 px-1 border-bottom border-white shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img width="240" src="assets/img/titre_couleur.png"></a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="nav navbar-nav nav-pills pt-2">
                         <li class="nav-item"><a href="index.html"
@@ -48,52 +42,36 @@
             </div>
         </nav>
 
-        <div class=" d-flex justify-content-center align-items-end">
-            <div class="">
-                <img src="./assets/img/Meggybelly.jpg" alt="" class="img-fluid hero-img_mobile">
-                <img src="./assets/img/cover_6b.png" alt="" class="img-fluid hero-img_desktop">
+        <div class="d-flex justify-content-center align-items-end">
+            <div>
+                <img src="./assets/img/Meggybelly.jpg" alt="MeggyBelly, professeur de danse orientale" class="vh-100 hero-img_mobile">
+                <img src="./assets/img/cover_6b.png" alt="MeggyBelly, professeur de danse orientale" class="vh-100 hero-img_desktop">
             </div>
-            <div class="hero-header position-absolute text-center pb-2 blur container-fluid">
+            <div class="hero-header position-absolute text-center pb-4 blur container-fluid">
                 <h1 class="hero-header_1 text-white title ">Cours de danse orientale<br>avec Meggy</h1>
                 <h2 class="hero-header_2 text-white subtitle">Niveau débutant</h2>
-                <p class="hero-header_cta mt-2"><a href="#cours" class="text-white cta">Découvrir</a></p>
+                <p class="hero-header_cta mt-4"><a href="#cours" class="text-white cta text-decoration-none">Découvrir</a></p>
+                <p class="hero-header_mobile-cta text-white cta-hero_mobile mt-2 mb-5">Découvrir</p>
             </div>
-
         </div>
-
-
-        <div class="d-flex justify-content-center pt-3 pb-5">
-            <p class="hero-header_mobile-cta text-white cta mt-2">Découvrir</p>
-        </div>
-
     </header>
 
-
-
-
-
-    <section class="container h-100">
-
-        <h2 class="border-bottom titre-section" id="cours">Les cours</h2>
-
+    <section class="container h-100 my-md-5 py-md-5">
+        <h2 class="pb-2 border-bottom titre-section" id="cours">Les cours</h2>
         <div class="row g-4 py-2 my-5 row-cols-1 row-cols-lg-3">
-
             <div class="feature col">
                 <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                    <img src="./assets/img/enfants.jpg" class="card-img-top rounded-3" alt="...">
+                    <img src="./assets/img/enfants.jpg" class="card-img-top rounded-3" alt="Cours de danse orientale mère-fille">
                 </div>
-
-                <h3 class="fs-4 text-body-emphasis">Cours enfants et mères-filles</h3>
-
-                <p class="details">18 h 15 - 19 h 15</p class="details">
-                <p class="details">12 € / cours</p class="details">
-                <p class="details">Carnet de 10 cours 100 €</p class="details">
-
-                <button type="button" class="text-white text-decoration-none cta" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Me contacter
-                </button>
-
+                <div>
+                    <h3 class="fs-4 fw-semibold text-body-emphasis py-2">Cours enfants et mères-filles</h3>                   
+                    <p class="details">18 h 15 - 19 h 15</p class="details">
+                    <p class="details">12 € / cours</p class="details">
+                    <p class="details">Carnet de 10 cours 100 €</p class="details">
+                    <button type="button" class="text-white text-decoration-none cta mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Me contacter
+                    </button>
+                </div>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
@@ -114,7 +92,6 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="cta text-white" data-bs-dismiss="modal">Fermer</button>
-
                             </div>
                         </div>
                     </div>
@@ -125,17 +102,16 @@
                 <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                     <img src="./assets/img/adultes.jpg" class="card-img-top rounded-3" alt="...">
                 </div>
-                <h3 class="fs-4 text-body-emphasis">Cours adultes</h3>
-
-                <p class="details">19 h 30 - 20 h 30</p class="details">
-                <p class="details">12 € / cours</p class="details">
-                <p class="details">Carnet de 10 cours 100 €</p class="details">
-
-                <button type="button" class="text-white text-decoration-none cta" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Me contacter
-                </button>
-
+                <div>
+                    <h3 class="fs-4 fw-semibold text-body-emphasis py-2">Cours adultes</h3>
+                    <p class="details">19 h 30 - 20 h 30</p class="details">
+                    <p class="details">12 € / cours</p class="details">
+                    <p class="details">Carnet de 10 cours 100 €</p class="details">
+                    <button type="button" class="text-white text-decoration-none cta mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Me contacter
+                    </button>
+                </div>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
@@ -167,18 +143,16 @@
                 <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                     <img src="./assets/img/essai.jpg" class="card-img-top rounded-3" alt="...">
                 </div>
-                <h3 class="fs-4 text-body-emphasis">Cours d'essai</h3>
-
-                <p class="details">Offert jusqu'au 16 octobre 2024</p class="details">
-                <p class="details">Puis 6 € le cours enfant &</p class="details">
-                <p class="details">8 € le cours adulte</p class="details">
-
-
-                <button type="button" class="text-white text-decoration-none cta" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Me contacter
-                </button>
-
+                <div>
+                    <h3 class="fs-4 fw-semibold text-body-emphasis py-2">Cours d'essai</h3>
+                    <p class="details">Offert jusqu'au 16 octobre 2024</p class="details">
+                    <p class="details">Puis 6 € le cours enfant &</p class="details">
+                    <p class="details">8 € le cours adulte</p class="details">
+                    <button type="button" class="text-white text-decoration-none cta mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Me contacter
+                    </button>
+                </div>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
@@ -212,14 +186,14 @@
 
 
 
-    <section class="container h-100">
-        <h2 class="py-5 my-5 border-bottom titre-section" id="lieu">Le lieu</h2>
+    <section class="container h-100 my-md-5 py-md-5">
+        <h2 class="pb-2 border-bottom titre-section" id="lieu">Le lieu</h2>
         <div class="row g-4 py-2 my-5 row-cols-1 row-cols-lg-2">
             <div class="feature col text-center ">
                 <div class="d-flex flex-column align-items-center justify-content-center">
-                    <h3 class="fs-4 mb-4 pt-5 mb-5 ">Les cours se déroulent au</h3>
-                    <h3 class="fs-1">Club Univers 21</h4>
-                        <h3 class="fs-1 mb-5">29 rue des boulets <br> 75011 Paris</h4>
+                    <h3 class="fs-4 fw-semibold mb-4 pt-5 mb-5 ">Les cours se déroulent au</h3>
+                    <h3 class="fs-1 fw-bold">Club Univers 21</h4>
+                        <h3 class="fs-1 fw-semibold mb-5">29 rue des boulets <br> 75011 Paris</h4>
                             <h3 class="fs-4 mb-5">Un lieu magnifique <br> avec une vue en 360° sur tout Paris</h3>
 
                             <button type="button" class="text-white text-decoration-none cta" data-bs-toggle="modal"
@@ -252,16 +226,16 @@
 
             </div>
 
-            <div class="feature col pt-5 mt-5">
-                <div class="d-inline-flex align-items-center justify-content-center fs-2 mt-5 pt-4">
-                    <img src="./assets/img/lieu.JPG" class="card-img-top rounded-3" alt="...">
+            <div class="feature col">
+                <div class="d-inline-flex align-items-center justify-content-center fs-2 pt-5">
+                    <img src="./assets/img/lieu.JPG" class="card-img-top rounded-3" alt="Vue sur Paris">
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="container h-100 ">
-        <h2 class="py-5 my-5 border-bottom titre-section" id="contact">Contact</h2>
+    <div class="container h-100 my-md-5 py-md-5">
+        <h2 class="pb-2 border-bottom titre-section" id="contact">Contact</h2>
         <div class="row g-4 pt-2 pb-5 my-5 row-cols-1 row-cols-lg-3">
             <div class="feature col d-flex flex-column justify-content-center align-items-center py-4">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-1 mb-3">
