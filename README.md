@@ -8,7 +8,7 @@ HTML - CSS (Bootstrap)
 
 ## Aims
 
-This project was set up as part of my training in web development, with the aim of reflecting on how to respond to user needs, and to feed into the "dossier professionnel" that was asked to pass the exam.
+This project was set up as part of my training in web development, with the aim of reflecting on how to respond to user needs. It was also intended to feed into the "dossier professionnel" that was asked to pass the exam.
 
 ## To view the page locally :
 
