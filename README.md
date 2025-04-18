@@ -1,4 +1,4 @@
-## Une version française du readme est disponible : https://github.com/chkpr/Landing_page/blob/main/README_francais.md
+## Une version française du readme est disponible : https://github.com/chkpr/Landing_page/blob/main/README_fr.md
 
 # Landing page
 
