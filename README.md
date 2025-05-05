@@ -16,6 +16,3 @@ This project was made as part of a learning programm in web development, with th
 
 Open the index.html file after retrieving the repository
 
-## Online access
-
-This project can be viewed online at https://fierce-reef-43658-0fbaa6317074.herokuapp.com/
