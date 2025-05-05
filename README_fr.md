@@ -15,7 +15,3 @@ Ce projet a été mis en place dans le cadre de ma formation en développement w
 ## Pour consulter la page localement :
 
 Ouvrir le fichier index.html après avoir récupéré le repository
-
-## Accès en ligne
-
-Ce projet peut être vu en ligne sur https://fierce-reef-43658-0fbaa6317074.herokuapp.com/
